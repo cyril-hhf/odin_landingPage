@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    margin: auto;
+}
+/* Header */
+header {
+    background-color: #232f41;
+}
+
+.navbar {
+    display: flex;
+    color: #FFF;
+    align-items: center;
+    padding: 20px;
+}
+
+.groupRight {
+    display: flex;
+    margin-left: auto;
+    gap: 20px;
+}
+
+.headerLowerPart {
+    display: flex;
+    color: #FFF;
+    align-items: center;
+    padding: 50px;
+}
+
+.headerLowerPartLeft {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.headerLowerPartRight {
+    display: flex;
+    flex: 1;
+}
+
+/* Main1 */
+
+.Main1 {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#Main1Head {
+    padding: 30px;
+    color: rgb(24, 24, 83);
+}
+
+.Main1Boxes {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.Main1Boxes div {
+    gap: 20px;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: column;
+}
+
+.borderBoxes {
+    border: solid;
+    padding: 50px;
+}
