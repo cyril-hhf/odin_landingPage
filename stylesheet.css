@@ -57,6 +57,7 @@ header {
     display: flex;
     flex-direction: row;
     gap: 15px;
+    padding-bottom: 30px;
 }
 
 .Main1Boxes div {
@@ -72,3 +73,50 @@ header {
     border: solid;
     padding: 50px;
 }
+
+/* Quote area */
+
+.Quote {
+    background-color: #E5E7EB;
+    display: flex;
+}
+
+.QuoteAuthor {
+    display: flex;
+    flex-direction: column;
+}
+
+#quote {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.author {
+    display: flex;
+}
+
+#author {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+/* Sign up */
+
+.signup {
+    background-color: white;
+}
+
+.signupBox {
+    background-color: #3882F6;
+    display: flex;
+    padding: 20px;
+    margin: 50px;
+}
+
+.signup {
+    margin: auto;
+}
+    
+
