@@ -58,7 +58,7 @@ header {
 .Main1Boxes {
     display: flex;
     flex-direction: row;
-    gap: 15px;
+    gap: 40px;
     padding-bottom: 30px;
 }
 
@@ -73,7 +73,8 @@ header {
 
 .borderBoxes {
     border: solid #3882F6;
-    padding: 50px;
+    border-radius: 25px;
+    padding: 60px;
 }
 
 /* Quote area */
@@ -94,14 +95,11 @@ header {
     padding-left: 200px;
     padding-right: 200px;
     font-size: 20px;
-    font-family: "Cormorant Garamond", serif
+    font-family: "Cormorant Garamond", serif;
 }
 
 #author {
-    padding-left: 100px;
-    padding-right: 100px;
     margin-bottom: 20px;
-    margin-left: auto;
 }
 
 /* Sign up */
@@ -112,9 +110,10 @@ header {
 
 .signupBox {
     background-color: #3882F6;
+    border-radius: 10px;
     display: flex;
     padding: 20px;
-    margin: 50px;
+    margin: 100px;
 }
 
 .signup {
